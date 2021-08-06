@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
-import com.bbq.livedatabus.LiveDataBus
+import com.androidbbq.livedatabus.LiveDataBus
 
 class TwoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

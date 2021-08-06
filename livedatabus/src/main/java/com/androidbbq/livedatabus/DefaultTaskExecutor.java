@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.bbq.livedatabus;
+package com.androidbbq.livedatabus;
 
 import android.os.Build;
 import android.os.Handler;

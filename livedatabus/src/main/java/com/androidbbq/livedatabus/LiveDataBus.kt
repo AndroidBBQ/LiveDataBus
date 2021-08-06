@@ -1,4 +1,4 @@
-package com.bbq.livedatabus
+package com.androidbbq.livedatabus
 
 import java.util.concurrent.ConcurrentHashMap
 

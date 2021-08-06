@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
-import com.bbq.livedatabus.LiveDataBus
+import com.androidbbq.livedatabus.LiveDataBus
 
 class MainActivity : AppCompatActivity() {
     private val TAG = "MainActivity"

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.bbq.livedatabus;
+package com.androidbbq.livedatabus;
 
 import androidx.annotation.MainThread;
 import androidx.annotation.NonNull;
