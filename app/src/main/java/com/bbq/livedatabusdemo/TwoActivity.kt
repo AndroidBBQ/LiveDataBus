@@ -11,12 +11,12 @@ class TwoActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_two)
 
-        LiveDataBus.with<String>("haha").observe(this, {
+        /*LiveDataBus.with<String>("haha").observe(this, {
             Log.i("MainActivity", " TwoActivity LiveDataBus  onCreate: $it")
-        })
-        /* LiveDataBus.with<String>("haha").observeStick(this, {
+        })*/
+         LiveDataBus.with<String>("haha").observeStick(this, {
              Log.i("MainActivity", " TwoActivity LiveDataBus  onCreate: $it")
-         })*/
+         })
         LiveDataBus222.with<String>("good").observe(this, {
             Log.i("MainActivity", "TwoActivity LiveData  onCreate: $it")
         })
@@ -24,6 +24,7 @@ class TwoActivity : AppCompatActivity() {
 
     fun setValue(view: View) {
         LiveDataBus.with<String>("haha").value = "todo"
+        LiveDataBus.with<String>("haha").postValue("todo")
         LiveDataBus222.with<String>("good").value = "tiantiat"
     }
 }
