@@ -36,3 +36,6 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation "androidx.lifecycle:lifecycle-common:2.1.0"
 }
+
+
+apply from:"./publish.gradle"
